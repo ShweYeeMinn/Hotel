@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novotel Yangon Max Hotel</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background: gray;
+            min-height: 50px;
+        }
+
+        .container {
+            margin: auto;
+            width: 90%;
+        }
+
+        .logo {
+            float: left;
+        }
+
+        .menu {
+            float: right;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            padding: 16px 10px;
+            display: inline-block;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: black;
+            padding: 16px;
+            display: inline-block;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        } 
+        .menu a:hover {
+            background: rgb(176, 168, 168);
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .slide{
+            height: 300px;
+            width: 100%;
+        }
+        .row {
+            display: flex;
+        }
+        .col {
+            flex: 3;
+            padding: 5px;
+        }
+        img {
+            width: 100%;
+            height: 300px;
+        }
+        .loca{
+            text-indent: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .adress{
+            margin: 20px;
+            pad: 20px;
+            line-height: 24px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .adress a{
+            text-decoration: none;
+        }
+        .adress a:hover{
+            color: rgb(0, 11, 8);
+        }
+        .row1{
+            display: flex;
+        }
+        .col1{
+            flex: 4;
+            padding: 20px;
+        }
+        .imgre{
+            height: 200px;
+            width: 100%;
+        }
+        .susan{
+            text-align: center;
+        }
+        .forminput {
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+
+        }
+        .contact button {
+            border: none;
+            padding: 10px;
+            background: black;
+            margin: 5px;
+            color: white;
+            border-radius: 5px;
+        }
+        footer{
+            background: gray;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .book{
+            color: white;
+            background: black;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        @media screen and (max-width:750px){
+            .logo,.menu{
+                float: none;
+                text-align: center;
+            }
+            img{
+                width: 100%;
+            }
+            .row{
+                flex-flow: column;
+            }
+            .row1{
+                flex-flow: column;
+            }
+            .forminput{
+                width: 90%;
+            }
+        }
+            nav{
+                background: rgb(190, 175, 178);
+                padding: 10px;
+            }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+            <div class="logo">
+                <a href="">NOVOTEL YANGON MAX</a>
+            </div>
+            <div class="menu">
+                <a href="#photos">Photos</a>
+                <a href="#about">About Us</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#booking">Booking</a>
+            </div>
+    </header>
+    <!-- header -->
+     <nav>
+     <h3 style="text-align: center;">NOVOTEL YANGON MAX HOTEL</h3>
+     <h4 style="text-align: center;">ENJOY THE BEST OF MYANMAR, YANGON AT NOVOTEL YANGON MAX</h4>
+    </nav>
+     <!-- slide -->
+      <div class="slide">
+        <img src="novo58.jpg" alt="">
+      </div>
+      <!-- slide -->
+    <!-- photos -->
+    <div class="photos" id="photos">
+        <div class="container">
+            <h3 style="text-align: center;">Photos</h3>
+            <div class="row">
+                <div class="col">
+                    <img src="novo11.jpg" alt="">
+                    <img src="novo12.jpg" alt="">
+                    <img src="novo13.jpg" alt="">
+                    <img src="novo14.jpg" alt="">
+                    <img src="novo15.jpg" alt="">
+                    <img src="novo16.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="novo10.jpeg" alt="">
+                    <img src="novo51.webp" alt="">
+                    <img src="novo33.webp" alt="">
+                    <img src="novo56.webp" alt="">
+                    <img src="novo9.jpg" alt="">
+                    <img src="novo50.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="novo14.jpg" alt="">
+                    <img src="novo12.jpg" alt="">
+                    <img src="novo30.webp" alt="">
+                    <img src="novo33.webp" alt="">
+                    <img src="novo31.webp" alt="">
+                    <img src="novo32.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- photos -->
+    <!-- about us -->
+    <div class="about" id="about">
+        <div class="container">
+            <h2 style="text-align: center;">About Us</h2>
+            <p class="loca">A 9-minute walk from the Junction Square shopping mall, this modern hotel features an art nouveau
+                exterior, and is 4 km from Shwedagon Pagoda.
+                Sophisticated rooms and 1-bedroom suites have Wi-Fi, flat-screen TVs and minibars, as well as tea and
+                coffeemakers. All also include desks and sitting areas with sofas. Upgraded rooms offer iPod docks and
+                rainfall showers; suites add separate sitting rooms. There's also 24-hour room service.
+                Breakfast is offered (fee). There are also 3 restaurants; 1 is French with 3 terraces. Other amenities
+                include bars, an outdoor pool, a fitness centre and a spa. Parking is available.
+                In addition to the standard of ALLSAFE, all guests get free Wi-Fi in all rooms and free parking if
+                arriving
+                by car. Conveniently situated in the Kamaryut part of Yangon, this property puts you close to
+                attractions
+                and interesting dining options. Don't leave before paying a visit to the famous Shwedagon Pagoda. Rated
+                with
+                5 stars, this high-quality property provides guests with access to massage, restaurant and hot tub
+                on-site.
+            </p>
+            <fieldset style="border-radius: 10px; background: rgb(227, 213, 216);">
+            <p class="adress">
+                Adress <br> <br>
+                Pyay Road, Kamayut Township, 11041 Yangon, Myanmar. <br>
+                Phone: +95 (1) 2305858 -Fax: +95 (1) 2305868 <br>
+                <a href="#email">Email: H9045-RE@accor.com</a>
+            </p>
+            </fieldset>
+        </div>
+    </div>
+    <!-- about us -->
+     <!-- review -->
+      <div class="review" id="review">
+        <div class="container">
+            <h2 style="text-align: center;">Review</h2>
+            <div class="row1">
+                <div class="col1">
+                    <fieldset style="border-radius: 10px; background: rgb(185, 185, 158);">
+                        <img src="img.13.jpg" alt="" style="border-radius: 20px;" class="imgre">
+                        <h3 class="susan">Susan</h3>
+                        <p>Timeout Bar in Yangon is praised for its combination of good food, excellent drinks, and a
+                            welcoming atmosphere. It’s a go-to spot for those looking to relax, enjoy good company, and
+                            partake in the vibrant social scene of Yangon. I recommend it to
+                            people who want to sit and chill.</p>
+                    </fieldset>
+                </div>
+                <div class="col1">
+                        <fieldset style="border-radius: 10px; background: rgb(185, 185, 158);">
+                            <img src="img.14.jpg" alt="" style="border-radius: 20px;" class="imgre">
+                            <h3 class="susan">John</h3>
+                            <p>The sport bar is so good and the service is excellent…The staff are so friendly…
+                                Ms Sar Mue is very friendly and kind thank you …Wine is excellent and the food is so good .Great
+                                spring music band .we are enjoying with my colleague.we like to play pool.</p>
+                        </fieldset>
+                </div>
+                <div class="col1">
+                        <fieldset style="border-radius: 10px; background: rgb(185, 185, 158);">
+                            <img src="img.15.webp" alt="" style="border-radius: 20px;" class="imgre">
+                            <h3 class="susan">David</h3>
+                            <p>I am recommend all the custom to come to time out and relax with happy hour buy one get one free
+                            5to 7pm.all the staff are kindly and friendly and take care of our table.Excellent service.we
+                            are enjoying play pool.Food is delicious beer is fresh.thank sports bar team.</p>
+                        </fieldset>
+                </div>
+                <div class="col1">
+                        <fieldset style="border-radius: 10px; background: rgb(185, 185, 158);">
+                            <img src="no3.jpg" alt="" style="border-radius: 20px;" class="imgre">
+                            <h3 class="susan">Lyli</h3>
+                            <p>I had a pleasanr stay ar the hotel. The staff Cha, Rosy, Kwar are very nice and helpful
+                                I recommend to stay here.
+                                I had a pleasanr stay ar the hotel. The staff Cha, Rosy, Kwar are very nice and helpful
+                                I recommend to stay here. Very pleasant and welcoming at Front office.</p>
+                        </fieldset>
+                </div>
+            </div>
+            </div>
+        </div>
+      </div>
+      <!-- review -->
+       <!-- contact -->
+       <div class="contact" id="contact">
+         <div class="container">
+            <h3 style="text-align: center;">Contact Us</h3>
+            <input type="text" name="" id="" class="forminput" size="8" placeholder="Enter Your Name...">
+            <input type="text" name="" id="" class="forminput" size="8" placeholder="Enter Your Email...">
+            <input type="text" name="" id="" class="forminput" size="8" placeholder="Enter Your Comment..."><br>
+            <button>Submit</button>
+         </div>
+       </div>
+        <!-- contact -->
+         <!-- booking -->
+          <div class="booking" id="booking">
+            <div class="container">
+             <h3 style="text-align: center;">Book A Roam</h3>
+             <fieldset style="background: rgb(192, 206, 192); padding: 20px;">
+             CHECK IN: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="date" size="10"> <br> <br>
+             CHECK OUT: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="date" size="10"> <br> <br>
+             ADULTS: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="number" size="10"> <br> <br>
+             CHILDREN: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="number" size="10"> <br> <br>
+             LOYALTY CARD: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="text" size="20"> <br> <br>
+             PREFERENTIAL CODE: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="text" size="20"> <br> <br>
+             <button class="book">BOOK NOW</button>
+             </fieldset>
+            </div>
+          </div>
+          <!-- booking -->
+         <!-- footer -->
+         <footer>
+            <p>novotelyangonmax.com</p>
+         </footer>
+          <!-- footer -->
+</body>
+
+</html>
